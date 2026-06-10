@@ -1,0 +1,22 @@
+[
+  { "id": 1, "name": "Lana Cashmilon 4/7 Semigruesa - Ovillo 100g", "category": "lanas", "price": 2500, "stock": 50 },
+  { "id": 2, "name": "Lana Merino Fina - Ovillo 100g", "category": "lanas", "price": 4200, "stock": 25 },
+  { "id": 3, "name": "Hilo de Algodón 8/6 (Rústico) - Madeja 150g", "category": "lanas", "price": 1800, "stock": 40 },
+  { "id": 4, "name": "Lana Cisne Bebé Todo Día - Ovillo 100g", "category": "lanas", "price": 3100, "stock": 30 },
+  { "id": 5, "name": "Cordón de Algodón Trenzado 4mm - Bobina 50m", "category": "cordones", "price": 3500, "stock": 15 },
+  { "id": 6, "name": "Cordón Poliéster Redondo para Capuchas - Metro", "category": "cordones", "price": 450, "stock": 200 },
+  { "id": 7, "name": "Cordón Elástico Redondo 3mm - Rollo 20m", "category": "cordones", "price": 1200, "stock": 60 },
+  { "id": 8, "name": "Cinta Hilera de Algodón 20mm - Rollo 10m", "category": "cordones", "price": 1600, "stock": 35 },
+  { "id": 9, "name": "Aguja de Tejer Crochet Aluminio Nº 4", "category": "agujas", "price": 950, "stock": 80 },
+  { "id": 10, "name": "Aguja de Tejer Crochet Aluminio Nº 6", "category": "agujas", "price": 1100, "stock": 75 },
+  { "id": 11, "name": "Agujas de Coser a Mano (Blíster x12 unidades)", "category": "agujas", "price": 850, "stock": 120 },
+  { "id": 12, "name": "Agujas de Coser para Máquina Singer (Punta Bola x5)", "category": "agujas", "price": 2300, "stock": 45 },
+  { "id": 13, "name": "Agujas de Tejer Dos Agujas Tricot Nº 5", "category": "agujas", "price": 1400, "stock": 20 },
+  { "id": 14, "name": "Hebilla Plástica Mochilera Regular 25mm", "category": "hebillas", "price": 350, "stock": 150 },
+  { "id": 15, "name": "Hebilla Metalica Passante Soldada 30mm", "category": "hebillas", "price": 600, "stock": 90 },
+  { "id": 16, "name": "Broche Mochilero de Encastre Plástico 40mm", "category": "hebillas", "price": 800, "stock": 70 },
+  { "id": 17, "name": "Argolla de Metal para Llaveros / Carteras 25mm", "category": "hebillas", "price": 250, "stock": 300 },
+  { "id": 18, "name": "Cierre de Nylon Cadena Nº 5 Fijo 20cm", "category": "cierres", "price": 400, "stock": 110 },
+  { "id": 19, "name": "Cierre Desmontable de Metal 60cm (Camperas)", "category": "cierres", "price": 1900, "stock": 40 },
+  { "id": 20, "name": "Cinta Métrica de Costura Flexible 1.5m", "category": "accesorios", "price": 1050, "stock": 55 }
+]

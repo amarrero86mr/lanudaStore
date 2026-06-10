@@ -76,11 +76,11 @@ Para asegurar la calidad del software trabajando de forma individual, se impleme
 Este proyecto está diseñado para crecer de manera continua, cerrando etapas de forma incremental y profesional:
 
 ### 📦 Fase 1: Arquitectura Base y Mocking (Etapa Actual)
-> [ ] Diseñar la estructura MVC y configurar el entorno nativo con ES Modules.
+> [x] Diseñar la estructura MVC y configurar el entorno nativo con ES Modules.
 
-> [ ] Crear el archivo data/products.json con el inventario inicial de mercería.
+> [x] Crear el archivo data/products.json con el inventario inicial de mercería.
 
-> [ ] Configurar la suite de pruebas con Vitest y el pipeline de CI/CD en GitHub Actions.
+> [x] Configurar la suite de pruebas con Vitest y el pipeline de CI/CD en GitHub Actions.
 
 >[ ] Desarrollar los métodos del Modelo (findAll, findById, create) para leer y escribir el JSON usando el módulo fs.
 
