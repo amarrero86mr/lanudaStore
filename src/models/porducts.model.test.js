@@ -29,3 +29,25 @@ test('Estructura válida de la lista de productos', async () => {
     expect(typeof primerProducto.price).toBe('number');
     expect(typeof primerProducto.stock).toBe('number');
 });
+
+test('findById debería devolver un producto conun ID existe', async () => {
+    const allProducts = await productsModel.findAll();
+    const id = allProducts[3].id
+    const producto = await productsModel.findById(id);
+
+    expect(producto).toBeDefined();
+    expect(producto).not.toBeNull();
+    expect(typeof producto).toBe('object');
+    
+    
+    expect(producto.id).toBe(allProducts[3].id);
+    expect(producto).toHaveProperty('name');
+});
+
+test('findById debe devolver null si el ID no existe', async () => {
+    // Busqueda de un ID que no existe
+    const producto = await productsModel.findById(9999);
+
+    // Utilizacion de la aserción para Null
+    expect(producto).toBeNull();
+});

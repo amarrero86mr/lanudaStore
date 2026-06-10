@@ -22,6 +22,22 @@ export const productsModel = {
             // si ocurre un error devolvemos un array vacío, evitamos romper el programa
             return [];
         }
-    }
+    },
+    
+    findById: async (id) => {
+        try {
+            // findAll para traer el array
+            const products = await productsModel.findAll();
+            
+            // Busqueda del producto por ID
+            const product = products.find(p => p.id === Number(id));
+            
+            return product || null;
+
+        } catch (error) {
+            console.error(`Error al buscar el producto con ID ${id}:`, error);
+            return null;
+        }
+    },
 
 };
