@@ -1,0 +1,32 @@
+name: Control de Calidad (CI)
+
+# Ejecucion de Test al momento de mergear
+on:
+  pull_request:
+    branches:
+      - main # Cuando se quiere mergear algo hacia la rama main
+
+# Tareas de Ejecucion
+jobs:
+  ejecutar-tests:
+    runs-on: ubuntu-latest # GitHub nos presta una computadora virtual con Linux limpia
+
+    steps:
+      # a. Clonar nuestro código adentro de esa computadora virtual
+      - name: Descargar código del repositorio
+        uses: actions/checkout@v4
+
+      # b. Instalar Node.js en esa computadora virtual
+      - name: Configurar entorno de Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20 # Usamos la versión estable 20
+          cache: 'npm'     # Guarda en caché las descargas para que sea más rápido las próximas veces
+
+      # c: Instalar las dependencias de nuestro proyecto (Express y Vitest)
+      - name: Instalar dependencias
+        run: npm install
+
+      # d: Ejecutar el script que configuramos en el package.json
+      - name: Correr la suite de Vitest
+        run: npm run test
